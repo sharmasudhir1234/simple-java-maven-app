@@ -4,6 +4,9 @@ pipeline
 agent {
   label 'prodserver'
 }
+tools {
+  maven 'mymaven'
+}
 
 stages{
 
